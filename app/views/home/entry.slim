@@ -6,7 +6,9 @@ html
 
   body
 
-
       - @entries.each do |entry|
+        p #{entry.id}
         h1 #{entry.title}
+        img src="#{entry.image}"
         p #{entry.content}
+        p #{entry.updated_at}

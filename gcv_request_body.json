@@ -1,0 +1,17 @@
+{
+    "requests": [
+        {
+            "image": {
+                "source": {
+                    "imageUri": "URL"
+                }
+            },
+            "features": [
+                {
+                    "type": "TYPE",
+                    "maxResults": 15
+                }
+            ]
+        }
+    ]
+}

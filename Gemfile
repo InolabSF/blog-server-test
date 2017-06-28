@@ -53,3 +53,9 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'slim'
+
+gem 'rails_admin'                                               # admin
+
+gem 'devise'                                                    # authentication
+
+gem 'faraday'                                                   # http client

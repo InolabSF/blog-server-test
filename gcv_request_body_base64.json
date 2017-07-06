@@ -1,0 +1,15 @@
+{
+    "requests": [
+        {
+            "image": {
+                "content":  "CONTENT"
+            },
+            "features": [
+                {
+                    "type": "TYPE",
+                    "maxResults": 15
+                }
+            ]
+        }
+    ]
+}

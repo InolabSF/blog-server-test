@@ -7,8 +7,10 @@ html
   body
 
       - @entries.each do |entry|
+        hr style="border:0;border-top:medium solid transparent;background-color:black;"
         p #{entry.id}
         h1 #{entry.title}
         img src="#{entry.image}"
         p #{entry.content}
         p #{entry.updated_at}
+        hr style="border:0;border-top:medium solid transparent;background-color:black;"

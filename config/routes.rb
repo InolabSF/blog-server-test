@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 
-  root to: 'home#get_entry'
+  root to: 'home#display_entry'
 
   devise_for :admin_uses
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'

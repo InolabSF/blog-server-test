@@ -108,11 +108,11 @@ class HomeController < ApplicationController
 
     readimage = Base64.strict_encode64(file.read)
 
-    ##########################################
-    # fileをローカルに保存
-    ##########################################
-
-    image = save_image(title, file)
+    # ##########################################
+    # # fileをローカルに保存
+    # ##########################################
+    #
+    # image = save_image(title, file)
 
     ##########################################
     # entryモデルの作成
@@ -120,7 +120,8 @@ class HomeController < ApplicationController
 
     entry = Entry.new
     entry.title = title
-    entry.image = image
+    # entry.image = image
+    entry.imagedata = readimage
 
 
     ##########################################

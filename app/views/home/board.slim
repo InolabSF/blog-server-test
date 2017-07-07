@@ -32,7 +32,7 @@ html lang="ja"
 
       - @entries.reverse.each do |entry|
         h3 #{entry.title}
-        img src="#{entry.image}"
+        img src="data:image/png;base64,#{entry.imagedata}" width="100%" /
         h4 #{entry.content}
         p    #{entry.updated_at}
         hr/
